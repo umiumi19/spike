@@ -1,0 +1,1 @@
+-- TODO: 共通スキーマの作成DDL(users/posts/comments)を置く。

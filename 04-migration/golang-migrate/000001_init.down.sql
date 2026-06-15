@@ -1,0 +1,1 @@
+-- TODO: 上を打ち消すDDL(DROP TABLE comments; posts; users; など順序に注意)。
