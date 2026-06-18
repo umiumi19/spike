@@ -1,0 +1,61 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ 今開いている演習をデバッグ",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${fileDirname}"
+    },
+    {
+      "name": "ex01 index",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/exercises/ex01_index"
+    },
+    {
+      "name": "ex02 nilptr",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/exercises/ex02_nilptr"
+    },
+    {
+      "name": "ex03 conditional",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/exercises/ex03_conditional"
+    },
+    {
+      "name": "ex04 callstack",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/exercises/ex04_callstack"
+    },
+    {
+      "name": "ex05 assertion",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/exercises/ex05_assertion"
+    },
+    {
+      "name": "ex06 logpoint",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/exercises/ex06_logpoint"
+    },
+    {
+      "name": "ex07 deadlock",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/exercises/ex07_deadlock"
+    }
+  ]
+}
