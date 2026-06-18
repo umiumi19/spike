@@ -13,5 +13,5 @@ atlas migrate lint --env local --latest 1
 # 適用
 atlas migrate apply --env local
 ```
-TODO: schema.sql の users に `email text` を足してから `migrate diff` を実行し、
+TODO: `04-migration/schema/schema.sql` に変更を加えてから `migrate diff` を実行し、
 差分が自動生成される体験と lint の警告を見る。
